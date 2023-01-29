@@ -1,3 +1,8 @@
+/* *{
+    background-color: #6a6a6a;
+}
+*/
+
 header{
     background-color: #bbbbbb;
     padding: 20px 0 ;
@@ -92,7 +97,8 @@ footer{
 
 main{
     width: 940px ;
-    margin: 0 auto; 
+    margin: 0 auto ; 
+    
 }
 
 form{
@@ -100,15 +106,35 @@ form{
 }
 
 
-form label{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
-form input{
+.input-padron   {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width:50%;
 
+}
+.checkbox {
+    margin: 20px 0  ;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s background;
+    cursor:pointer ;
+}
+
+.enviar:hover{
+    background: rgb(255, 85, 0);
 }
